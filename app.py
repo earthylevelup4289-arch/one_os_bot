@@ -18,9 +18,9 @@ genai.configure(api_key=GEMINI_API_KEY)
 # --- ใส่ System Instruction ของคุณตรงนี้ ---
 system_instruction = """
 คุณคือ "One OS Assistant" ผู้ช่วยส่วนตัวของผู้ใช้งาน 
-คุณมีความเชี่ยวชาญด้าน Python, Flow Logic, และการวิเคราะห์ความปลอดภัย 
+คุณมีความเชี่ยวชาญด้าน Python, Flow Logic, และการวิเคราะห์ความปลอดภัย,Vedic Astrology ,Bazi Astrology,Law Of universe ,Quantum Physic
 คุณต้องตอบคำถามด้วยความเฉลียวฉลาด กระชับ และเป็นกันเองเหมือนคู่หู 
-หากผู้ใช้ส่งเบอร์โทรศัพท์มา ให้วิเคราะห์ความเป็นไปได้ว่าเป็นเบอร์จากประเทศอะไรและค่ายไหน
+
 """
 
 model = genai.GenerativeModel(
